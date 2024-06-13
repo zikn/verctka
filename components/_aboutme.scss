@@ -1,0 +1,22 @@
+.aboutme {
+    height: 366px;
+    margin-top: 119px;
+    margin-bottom: 100px;
+
+    &__content {
+       text-align: center;
+    }
+
+    h2 {
+        font-family: "Roboto";
+        font-size: 32px;
+    }
+
+    p {
+        font-family: "Roboto";
+        color: #727272;
+        max-width: 540px;
+        margin: 0 auto;
+        line-height: 26px;
+    }
+}
