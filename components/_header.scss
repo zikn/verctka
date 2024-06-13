@@ -1,0 +1,78 @@
+.header {
+    background: #EEEFF1;
+    height: 700px;
+
+    &__inner {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 131px;
+            margin-top: 162px;
+
+        p {
+            color: #727272;
+            font-family: "Roboto";
+            font-size: 16px;
+            display: block;
+            line-height: 26px;
+            max-width: 570px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+
+       h1 {
+        color: #000;
+        font-family: "Roboto";
+        font-size: 45px;
+        }
+
+       button {
+        background: #34547a;
+        color: #fff;
+        font-size: 16px;
+        font-family: "Roboto";
+        width: 255px;
+        height: 65px;
+
+        cursor: pointer;
+
+        button:focus {
+            outline: none;
+            box-shadow: 0 0 0 4px #cbd6ee;
+        }
+       }
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        nav {
+            display: flex;
+            gap: 42px;
+            margin-top: 79px;
+        }
+
+        .img {
+            margin-top: 50px;
+
+            cursor: pointer;
+        }
+
+        .link {
+            font-family: "Roboto";
+            color: #000;
+            font-size: 16px;
+            text-decoration: none;
+            }
+
+        .link:hover {
+            color: #34547A;
+        }
+    }
+}
+
+
+
