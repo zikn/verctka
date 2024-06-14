@@ -70,7 +70,6 @@
 .aboutme {
   height: 366px;
   margin-top: 119px;
-  margin-bottom: 100px;
 }
 .aboutme__content {
   text-align: center;
@@ -85,4 +84,20 @@
   max-width: 540px;
   margin: 0 auto;
   line-height: 26px;
+}
+
+.blue__info {
+  height: 250px;
+  background: #34547A;
+}
+.blue div {
+  color: #fff;
+  font-family: "Roboto";
+}
+.blue__box {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  left: 1000px;
+  gap: 25px;
 }/*# sourceMappingURL=index.css.map */

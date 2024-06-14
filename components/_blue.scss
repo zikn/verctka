@@ -1,0 +1,23 @@
+.blue {
+
+
+    &__info {
+        height: 250px;
+        background: #34547A;
+        
+    }
+
+    div {
+        color: #fff;
+        font-family: "Roboto";
+    }
+
+    &__box{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        left: 1000px;
+        gap: 25px;
+    }
+
+}
