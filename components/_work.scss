@@ -2,13 +2,15 @@
     background: #eeeff1;
     height: 700px;
    
-
+    &__content{
+        
+        margin-top: 100px;
+    }
    
     h2 {
         font-family: "Roboto";
         font-size: 32px;
         text-align: center;
-        margin-top: 100px;
     }
     p {
         color: #727272;
@@ -22,7 +24,7 @@
     }
 
     .video{
-       max-width: 1110px;
+       width: 1110px;
        height: 600px;
     }
 }
