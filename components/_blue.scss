@@ -2,9 +2,11 @@
 
 
     &__info {
+        display: flex;
+        align-items: center;
         height: 250px;
         background: #34547A;
-        
+        justify-content: space-evenly;
     }
 
     div {
@@ -13,8 +15,7 @@
     }
 
     &__box{
-        display: flex;
-        justify-content: center;
+       display: flex;
         margin: 0;
         left: 1000px;
         gap: 25px;

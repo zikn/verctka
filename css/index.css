@@ -87,8 +87,11 @@
 }
 
 .blue__info {
+  display: flex;
+  align-items: center;
   height: 250px;
   background: #34547A;
+  justify-content: space-evenly;
 }
 .blue div {
   color: #fff;
@@ -96,8 +99,41 @@
 }
 .blue__box {
   display: flex;
-  justify-content: center;
   margin: 0;
   left: 1000px;
   gap: 25px;
+}
+
+.fotoshop {
+  margin-top: 100px;
+}
+.fotoshop__content {
+  display: flex;
+  justify-content: space-between;
+}
+.fotoshop__info .g {
+  width: 450px;
+  height: 4px;
+  background: #c4c4c4;
+  margin-bottom: 30px;
+}
+.fotoshop__info .b {
+  width: 350px;
+  height: 4px;
+  background: #34547a;
+  margin-bottom: 10px;
+}
+.fotoshop__info h2 {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+.fotoshop__info p {
+  font-family: "Roboto";
+  size-adjust: 16px;
+  color: #727272;
+  margin-top: 50px;
+}
+.fotoshop .img {
+  max-width: 555px;
+  height: 450px;
 }/*# sourceMappingURL=index.css.map */
