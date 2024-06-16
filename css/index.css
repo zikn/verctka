@@ -173,4 +173,13 @@ body {
 }
 .new__content img {
   width: 100%;
+}
+
+.micro {
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
+.micro__content {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=index.css.map */
