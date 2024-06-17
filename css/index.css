@@ -3,12 +3,27 @@
   background: #EEEFF1;
   height: 700px;
 }
+@media screen and (max-width: 770px) {
+  .header {
+    height: 750px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header {
+    height: 1300px;
+  }
+}
 .header__inner {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 131px;
   margin-top: 162px;
+}
+@media screen and (max-width: 425px) {
+  .header__inner {
+    display: block;
+  }
 }
 .header__inner p {
   color: #727272;
@@ -43,10 +58,20 @@
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 425px) {
+  .header__info {
+    display: block;
+  }
+}
 .header__info nav {
   display: flex;
   gap: 42px;
   margin-top: 79px;
+}
+@media screen and (max-width: 425px) {
+  .header__info nav {
+    flex-direction: column;
+  }
 }
 .header__info .img {
   margin-top: 50px;
@@ -60,6 +85,12 @@
 }
 .header__info .link:hover {
   color: #34547A;
+}
+
+@media screen and (max-width: 320px) {
+  .inner__info img {
+    width: 100%;
+  }
 }
 
 .container {
@@ -97,8 +128,8 @@ body {
   background: #34547A;
   justify-content: space-evenly;
 }
-.blue div {
-  color: #fff;
+.blue .div {
+  color: #FFFFFF;
   font-family: "Roboto";
 }
 .blue__box {
@@ -106,6 +137,22 @@ body {
   margin: 0;
   left: 1000px;
   gap: 25px;
+}
+@media screen and (max-width: 320px) {
+  .blue__box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .blue__box {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 770px) {
+  .blue__box {
+    width: 128px;
+    gap: 10px;
+  }
 }
 
 .fotoshop {
@@ -115,17 +162,42 @@ body {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 425px) {
+  .fotoshop__content {
+    flex-wrap: wrap;
+  }
+}
 .fotoshop__info .g {
   width: 450px;
   height: 4px;
   background: #c4c4c4;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 320px) {
+  .fotoshop__info .g {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .fotoshop__info .g {
+    width: 350px;
+  }
+}
 .fotoshop__info .b {
   width: 350px;
   height: 4px;
   background: #34547a;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 320px) {
+  .fotoshop__info .b {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .fotoshop__info .b {
+    width: 250px;
+  }
 }
 .fotoshop__info h2 {
   font-family: "Roboto";
@@ -141,11 +213,22 @@ body {
   max-width: 555px;
   height: 450px;
 }
+@media screen and (max-width: 770px) {
+  .fotoshop .img {
+    width: 100%;
+    height: 350px;
+  }
+}
 
 .work {
   background: #eeeff1;
   height: 1004px;
   margin-top: 100px;
+}
+@media screen and (max-width: 425px) {
+  .work {
+    height: 600px;
+  }
 }
 .work__content {
   text-align: center;
@@ -167,6 +250,17 @@ body {
   width: 1110px;
   height: 600px;
 }
+@media screen and (max-width: 425px) {
+  .work .video {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .work .video {
+    width: 100%;
+  }
+}
 
 .new {
   margin-top: 29px;
@@ -182,4 +276,14 @@ body {
 .micro__content {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 425px) {
+  .micro__content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 770px) {
+  .micro__content img {
+    width: 192px;
+  }
 }/*# sourceMappingURL=index.css.map */

@@ -3,6 +3,14 @@
     margin-bottom: 100px;
     &__content {
         display: flex;
+        @media screen and (max-width:425px) {
+            flex-wrap: wrap;
+        }
         justify-content: space-between;
+        img {
+            @media screen and (max-width:770px) {
+                width: 192px;
+            }
+        }
     }
 }

@@ -1,6 +1,12 @@
 .header {
     background: #EEEFF1;
     height: 700px;
+    @media screen and (max-width:770px) {
+        height: 750px;
+    }
+    @media screen and (max-width:425px) {
+        height: 1300px;
+     }
 
     &__inner {
 
@@ -9,6 +15,9 @@
             align-items: center;
             gap: 131px;
             margin-top: 162px;
+            @media screen and (max-width:425px) {
+                display: block;
+             }
 
         p {
             color: #727272;
@@ -48,11 +57,17 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @media screen and (max-width:425px) {
+           display: block;
+        }
 
         nav {
             display: flex;
             gap: 42px;
             margin-top: 79px;
+            @media screen and (max-width:425px) {
+                flex-direction: column;
+            }
         }
 
         .img {
@@ -73,6 +88,13 @@
         }
     }
 }
+.inner__info {
+    img {
+        @media screen and (max-width:320px) {
+            width: 100%;
+        }
 
+    }
+}
 
 

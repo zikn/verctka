@@ -1,6 +1,4 @@
-.blue {
-
-
+.blue {  
     &__info {
         display: flex;
         align-items: center;
@@ -8,17 +6,27 @@
         background: #34547A;
         justify-content: space-evenly;
     }
-
-    div {
-        color: #fff;
+    
+    .div {
+        color: #FFFFFF;
         font-family: "Roboto";
     }
-
-    &__box{
-       display: flex;
+    
+    &__box {
+        display: flex;
         margin: 0;
         left: 1000px;
         gap: 25px;
+        @media screen and (max-width:320px) {
+           width: 100%;
+        }
+        @media screen and (max-width:425px) {
+            flex-wrap: wrap;
+        }
+        @media screen and (max-width:770px) {
+            width: 128px;
+            gap: 10px;
+        }
     }
-
+    
 }
