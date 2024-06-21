@@ -329,7 +329,7 @@ body {
 }
 @media screen and (max-width: 320px) {
   .question__inner .sos {
-    width: 300px;
+    max-width: 290px;
   }
 }
 @media screen and (max-width: 425px) {
