@@ -327,12 +327,26 @@ body {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+@media screen and (max-width: 320px) {
+  .question__inner .sos {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .question__inner .sos {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .question__inner .sos {
+    width: 350px;
+  }
+}
 .question__inner .pop {
   width: 255px;
   height: 50px;
   font-family: "Roboto";
   font-size: 14px;
-  gap: 30px;
   margin-top: 65px;
 }
 .question__inner button {
@@ -358,10 +372,20 @@ body {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 320px) {
+  .footer__content {
+    flex-direction: column;
+  }
+}
 .footer__inner {
   display: flex;
   align-items: center;
   gap: 22px;
+}
+@media screen and (max-width: 320px) {
+  .footer__inner {
+    margin-bottom: 50px;
+  }
 }
 .footer__info h2 {
   color: #fff;

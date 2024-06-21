@@ -4,11 +4,19 @@
     &__content {
         display: flex;  
         justify-content: space-between;
+
+        @media screen and (max-width:320px) {
+            flex-direction: column;
+        }
     }
     &__inner {
         display: flex;
         align-items: center;
         gap: 22px;
+
+        @media screen and (max-width:320px) {
+            margin-bottom: 50px;
+        }
     }
     &__info {
         h2 {

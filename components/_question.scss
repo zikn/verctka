@@ -9,6 +9,7 @@
             font-family: "Roboto";
             font-size: 36px;
             margin-bottom: 50px;
+            
         }
         p {
             font-family: "Roboto";
@@ -31,6 +32,15 @@
             height: 175px;
             margin-bottom: 20px;
             margin-top: 20px;
+            @media screen and (max-width:320px) {
+                width: 300px;
+            }
+            @media screen and (max-width:425px) {
+                width: 400px;
+            }
+            @media screen and (max-width:375px) {
+                width: 350px;
+            }
             
         }
         
@@ -40,7 +50,7 @@
             height: 50px;
             font-family: "Roboto";
             font-size: 14px;
-            gap: 30px;
+           
             margin-top: 65px;
         }
         button {
