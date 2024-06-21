@@ -1,0 +1,28 @@
+.footer {
+    background: #34547a;
+    
+    &__content {
+        display: flex;  
+        justify-content: space-between;
+    }
+    &__inner {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+    }
+    &__info {
+        h2 {
+            color: #fff;
+            font-family: "Roboto";
+            width: 175px;
+            height: 40px;
+            margin-top: 50px;
+        }
+        p {
+            color: #fff;
+            font-family: "Roboto";
+            height: 12px;
+            margin-bottom: 50px;
+        }
+    }
+}

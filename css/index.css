@@ -307,6 +307,7 @@ body {
 .question__info h2 {
   font-family: "Roboto";
   font-size: 36px;
+  margin-bottom: 50px;
 }
 .question__info p {
   font-family: "Roboto";
@@ -314,6 +315,7 @@ body {
   height: 64px;
   color: #727272;
   margin: 0 auto;
+  line-height: 26px;
 }
 .question__inner {
   text-align: center;
@@ -347,4 +349,30 @@ body {
 .question__inner button button:focus {
   outline: none;
   box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.footer {
+  background: #34547a;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__inner {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.footer__info h2 {
+  color: #fff;
+  font-family: "Roboto";
+  width: 175px;
+  height: 40px;
+  margin-top: 50px;
+}
+.footer__info p {
+  color: #fff;
+  font-family: "Roboto";
+  height: 12px;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=index.css.map */

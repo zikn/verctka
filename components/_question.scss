@@ -8,6 +8,7 @@
         h2 {
             font-family: "Roboto";
             font-size: 36px;
+            margin-bottom: 50px;
         }
         p {
             font-family: "Roboto";
@@ -15,6 +16,7 @@
             height: 64px;
             color: #727272;
             margin: 0 auto;
+            line-height: 26px;
         }
 
     }
@@ -22,6 +24,7 @@
     &__inner {
         text-align: center;
         gap: 30px;
+       
         
         .sos {
             width: 540px;
