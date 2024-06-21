@@ -1,0 +1,61 @@
+.question {
+    background: #eeeff1;
+    &__container {
+        width: 540px;
+    }
+    &__info{
+        text-align: center;
+        h2 {
+            font-family: "Roboto";
+            font-size: 36px;
+        }
+        p {
+            font-family: "Roboto";
+            max-width: 540px;
+            height: 64px;
+            color: #727272;
+            margin: 0 auto;
+        }
+
+    }
+    
+    &__inner {
+        text-align: center;
+        gap: 30px;
+        
+        .sos {
+            width: 540px;
+            height: 175px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            
+        }
+        
+        
+        .pop {
+            width: 255px;
+            height: 50px;
+            font-family: "Roboto";
+            font-size: 14px;
+            gap: 30px;
+            margin-top: 65px;
+        }
+        button {
+            background: #34547a;
+            color: #fff;
+            font-size: 16px;
+            font-family: "Roboto";
+            width: 255px;
+            height: 65px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            
+            cursor: pointer;
+    
+            button:focus {
+                outline: none;
+                box-shadow: 0 0 0 4px #cbd6ee;
+            }
+        }
+    }
+}

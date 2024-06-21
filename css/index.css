@@ -128,20 +128,17 @@ body {
   background: #34547A;
   justify-content: space-evenly;
 }
-.blue .div {
-  color: #FFFFFF;
-  font-family: "Roboto";
+@media screen and (max-width: 320px) {
+  .blue__info {
+    height: 350px;
+    flex-wrap: wrap;
+  }
 }
 .blue__box {
   display: flex;
   margin: 0;
   left: 1000px;
   gap: 25px;
-}
-@media screen and (max-width: 320px) {
-  .blue__box {
-    width: 100%;
-  }
 }
 @media screen and (max-width: 425px) {
   .blue__box {
@@ -152,6 +149,15 @@ body {
   .blue__box {
     width: 128px;
     gap: 10px;
+  }
+}
+.blue .blue__inner div {
+  color: #FFFFFF;
+  font-family: "Roboto";
+}
+@media screen and (max-width: 320px) {
+  .blue .blue__inner {
+    flex-wrap: wrap;
   }
 }
 
@@ -236,6 +242,7 @@ body {
 .work h2 {
   font-family: "Roboto";
   font-size: 32px;
+  margin-top: 100px;
 }
 .work p {
   color: #727272;
@@ -286,4 +293,58 @@ body {
   .micro__content img {
     width: 192px;
   }
+}
+
+.question {
+  background: #eeeff1;
+}
+.question__container {
+  width: 540px;
+}
+.question__info {
+  text-align: center;
+}
+.question__info h2 {
+  font-family: "Roboto";
+  font-size: 36px;
+}
+.question__info p {
+  font-family: "Roboto";
+  max-width: 540px;
+  height: 64px;
+  color: #727272;
+  margin: 0 auto;
+}
+.question__inner {
+  text-align: center;
+  gap: 30px;
+}
+.question__inner .sos {
+  width: 540px;
+  height: 175px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.question__inner .pop {
+  width: 255px;
+  height: 50px;
+  font-family: "Roboto";
+  font-size: 14px;
+  gap: 30px;
+  margin-top: 65px;
+}
+.question__inner button {
+  background: #34547a;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Roboto";
+  width: 255px;
+  height: 65px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.question__inner button button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
 }/*# sourceMappingURL=index.css.map */
